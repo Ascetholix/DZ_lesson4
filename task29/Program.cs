@@ -28,4 +28,11 @@ if (N == 8) // Если условия True то викторина
 else
 {
     Console.WriteLine("Очень жаль вы ввели не правельное число. ");
+    Console.WriteLine("Для вас простое условия ");
+    for (int i = 0; i < N; i++)
+    {
+        array[i] = new Random().Next(0, 10);
+        Console.WriteLine(array[i]);
+    }
+    
 }
